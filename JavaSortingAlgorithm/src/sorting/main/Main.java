@@ -1,8 +1,8 @@
-package main;
+package sorting.main;
 import java.util.Arrays;
 
-import quickSort.QuickSort;
-import sortInterface.Sort;
+import sorting.algorithms.QuickSort;
+import sorting.interfaces.Sort;
 
 
 public class Main {

@@ -1,4 +1,4 @@
-package sortInterface;
+package sorting.interfaces;
 import java.util.List;
 
 public interface Sort  {

@@ -1,16 +1,16 @@
-package quickSort;
+package sorting.algorithms;
 
 import java.util.List;
 import java.util.Random;
 
-import sortInterface.Sort;
-import utils.Util;
+import sorting.interfaces.Sort;
+import sorting.utils.Util;
 
 public class QuickSort implements Sort {
 	
 	static final Random RND = new Random(); 
 	
-    private <T extends Comparable<T>> int partition(List<T> list, int begin, int end ){
+    <T extends Comparable<T>> int partition(List<T> list, int begin, int end ){
 
         int index = begin + RND.nextInt(end - begin + 1);
         T pivot = list.get(index);
